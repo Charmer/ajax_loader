@@ -1,0 +1,12 @@
+ajax_loader.hellopage:
+  # Указываем путь роута, с лидирующим слешем.
+  path: '/ajax/node'
+  # Значения по умолчанию
+  defaults:
+    # Функция контроллера отвечающая за содержимое.
+    _controller: '\Drupal\ajax_loader\Controller\Ajax_loaderController::load'
+  # В данном разделе указываются необходимые требования для роута.
+  requirements:
+    # Мы будем показывать страницу только тем, у кого есть права на просмотр
+    # содержимого.
+    _access: 'TRUE'

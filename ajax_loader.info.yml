@@ -1,0 +1,6 @@
+name: Ajax Loader
+description: 'Load nodes by AJAX'
+type: module
+core: 8.x
+version: 2
+package: KPFU
